@@ -26,9 +26,9 @@
                 </div>
                 <nav class="header__nav col-8">
                     <ul class="nav__list">
-                        <li class="nav__item">Курсы</li>
-                        <li class="nav__item">Отзывы</li>
-                        <li class="nav__item">Контакты</li>
+                        <li class="nav__item"><a href="#" class="nav__link">Курсы</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -40,7 +40,7 @@
         <!-- ! HERO -->
         <section class="section__hero container">
             <div class="row col-12">
-                <div class="hero__content col-8">
+                <div class="hero__content col-xl-8 col-7">
                     <h2 class="hero__header">
                         <span class="golden-text">Онлайн-школа</span> для бухгалтеров и предпринимателей <span
                             class="golden-text">Марии Шумской</span>
@@ -68,7 +68,7 @@
                     </ul>
                     <button class="hero__button button">Выбрать курс!</button>
                 </div>
-                <div class="hero__img col-4">
+                <div class="hero__img col-xl-4 col-5">
                     <img src="img/hero-pic_full.png" class="hero-img" alt="Фото Марии">
                     <!-- <div class="l-vector"></div> -->
                 </div>
@@ -115,18 +115,33 @@
                     </div>
                 </div>
                 <div class="row why__small-container">
-                    <div class="why__small why__block big-paddings">Бесплатные живые мастер-классы и нетворкинги с
-                        коллегами
-                        и экспертами
-                        школы</div>
-                    <div class="why__small why__block big-paddings">Учиться у нас может каждый: беспроцентная рассрочка
-                        от 6
-                        банков</div>
-                    <div class="why__small why__block small-paddings">Возможность для лучших учеников стать партнером
-                        бухгалтерской службы Марии
-                        Шумской</div>
-                    <div class="why__small why__block small-paddings">Поддержка от наставников и кураторов на всех
-                        тарифах
+                    <div class="why__small why__block big-paddings">
+                        <p>
+                            Бесплатные живые мастер-классы и нетворкинги с
+                            коллегами
+                            и экспертами
+                            школы
+                        </p>
+                    </div>
+                    <div class="why__small why__block big-paddings">
+                        <p>
+                            Учиться у нас может каждый: беспроцентная рассрочка
+                            от 6
+                            банков
+                        </p>
+                    </div>
+                    <div class="why__small why__block big-paddings">
+                        <p>
+                            Возможность для лучших учеников стать партнером
+                            бухгалтерской службы Марии
+                            Шумской
+                        </p>
+                    </div>
+                    <div class="why__small why__block big-paddings">
+                        <p>
+                            Поддержка от наставников и кураторов на всех
+                            тарифах
+                        </p>
                     </div>
                 </div>
                 <svg class="vector-why" width="487" height="728" viewBox="0 0 487 728" fill="none"
@@ -141,19 +156,19 @@
         <section class="section__task">
             <div class="container">
                 <div class="row task__content">
-                    <h2 class="section__header task__header col-2">Наша Миссия</h2>
+                    <h2 class="section__header task__header col-xl-2 col-1">Наша Миссия</h2>
                     <ul class="task__list">
-                        <li class="task__item task__item-1 col-3">
+                        <li class="task__item task__item-1 col-xl-3 col-4">
                             <p class="task__text"><span class="task-bold">Раскрыть возможности профессии
                                     бухгалтера</span>: можно работать в свободном
                                 графике и с чеками выше среднего заработка по стране</p>
                         </li>
-                        <li class="task__item task__item-2 col-3">
+                        <li class="task__item task__item-2 col-xl-3 col-4">
                             <p class="task__text"><span class="task-bold">Повысить экспертность бухгалтеров</span> за
                                 счет развития профессиональных и
                                 личностных навыков</p>
                         </li>
-                        <li class="task__item task__item-3 col-3">
+                        <li class="task__item task__item-3 col-xl-3 col-4">
                             <p class="task__text">Показать предпринимателям, что деятельность можно вести законно <span
                                     class="task-bold">без
                                     потери
@@ -177,9 +192,9 @@
         <!-- ! ADVANTAGES -->
         <section class="section__advantages">
             <div class="section__advantages-top"></div>
-            <div class="container">
+            <div class="container section__advantages-container">
 
-                <img src="img/advantages-bg.png" alt="Задний фон секции" class="advantages__img">
+                <img src="img/advantages-bgz.png" alt="Задний фон секции" class="advantages__img">
                 <div class="row">
                     <p class="advantages__citate">“Бухгалтер - это специалист, ведущий учет организации или у ИП”</p>
                 </div>
@@ -189,282 +204,457 @@
                     </p>
                 </div>
                 <div class="row advantages__content-container">
-                    <div class="advantages__content col-2_5">
+                    <div class="advantages__content col-3">
+                        <div class="rect"></div>
+                        <div class="advantages__outline"></div>
                         <h4 class="advantages__content-header">Сократит расходы</h4>
                         <p class="advantages__text">организации за счет оптимизации налогообложения</p>
                     </div>
-                    <div class="advantages__content col-2_5">
+                    <div class="advantages__content col-3">
+                        <div class="rect"></div>
+
+                        <div class="advantages__outline"></div>
                         <h4 class="advantages__content-header">Сэкономит время</h4>
                         <p class="advantages__text">на решении вопросов с контролирующими органами</p>
                     </div>
-                    <div class="advantages__content col-2_5">
+                    <div class="advantages__content col-3">
+                        <div class="rect"></div>
+
+                        <div class="advantages__outline"></div>
                         <h4 class="advantages__content-header">Гарантирует соблюдение законодательства</h4>
                         <p class="advantages__text">при оформлении сотрудников на работу</p>
                     </div>
-                    <div class="advantages__content col-2_5">
+                    <div class="advantages__content col-3">
+                        <div class="advantages__outline"></div>
                         <h4 class="advantages__content-header">Обеспечит порядок</h4>
                         <p class="advantages__text">в документальной базе предприятия</p>
                     </div>
                 </div>
-                <div class="row col-6">
+                <div class="row col-12 advantages__button-container">
                     <button class="advantages__button button">Хочу так</button>
                 </div>
+                <svg width="87" height="380" viewBox="0 0 87 380" class="advantages-left-vector" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 -11.5L71 66.5L85.5 34.5L36.5 64.5L65 80L25.5 34.5L44.5 244L0 286L12 205L36 379.5"
+                        stroke="#FFE9B2" stroke-opacity="0.3" />
+                </svg>
+                <svg width="308" height="372" viewBox="0 0 308 372" class="advantages-left-bottom-vector" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M35.5 1L186.5 230.052L211 55.3058L-15 240.806L307 372" stroke="#393431"
+                        stroke-opacity="0.3" />
+                </svg>
+
+
             </div>
         </section>
 
         <!-- ! INFO -->
-        <section class="section__info container">
-            <div class="row">
-                <div class="info__content">
-                    <div class="info__note"></div>
-                    <p class="info__text">Каждые 6 месяцев в Беларуси регистрируется более 20 000 предприятий и
-                        индивидуальных предпринимателей - бухгалтер нужен каждому из них!</p>
+        <section class="section__info">
+            <div class="container">
+                <div class="row">
+
+                    <div class="info__heading-container">
+                        <div class="note"></div>
+                        <p class="info__text">Каждые 6 месяцев в Беларуси регистрируется более 20 000 предприятий и
+                            индивидуальных предпринимателей - <span>бухгалтер нужен каждому из них!</span></p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="info__content col-8">
-                    <div class="info__note"></div>
-                    <p class="info__question">Как думаете, сколько может зарабатывать бухгалтер?</p>
-                    <p class="info__salary">Главный бухгалтер - от 3 500 BYN!</p>
-                    <p class="info__growth">Здесь есть куда расти! Здесь возможно иметь высокий доход!
-                        Главное - знать как!
-                    </p>
-                    <p class="info__help">Вам на помощь придет онлайн-школа Марии Шумской!
-                    </p>
+                <div class="row">
+                    <div class="row">
+                        <div class="info__content col-xl-6 col-7">
+                            <div class="question"></div>
+                            <div class="note note-big"></div>
+                            <p class="info__question">Как думаете, сколько может зарабатывать бухгалтер?</p>
+                            <p class="info__salary">Главный бухгалтер - от <span class="text-bold">3 500 BYN!</span></p>
+                            <p class="info__growth">Здесь есть куда расти! Здесь возможно иметь высокий доход!
+                                Главное - знать как!
+                            </p>
+                            <p class="info__help">Вам на помощь придет онлайн-школа Марии Шумской!
+                            </p>
+                        </div>
+                        <div class="info__img-container">
+                            <img src="img/info-do.png" alt="Делай что нравится" class="info__img col-6">
+                            <svg width="68" height="68" class="info-img-rect" viewBox="0 0 68 68" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.177673 0.822266L67.7107 68.3553L0.533004 135.533L0.355339 68.1776L0.177673 0.822266Z"
+                                    fill="#FFE9B2" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="row col-6 info__button-container">
+                        <button class="info__button button">Хочу учиться!</button>
+                    </div>
                 </div>
+                <svg width="281" height="847" viewBox="0 0 281 847" class="info-left-vector" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M280.5 0L1 72.5L8.5 42L26.5 95L50.5 87V290L8.5 233.5H70L42 849.5" stroke="#393431"
+                        stroke-opacity="0.3" />
+                </svg>
             </div>
-            <div class="row col-8">
-                <button class="info__button button">Хочу учиться!</button>
-            </div>
-            <img src="#" alt="Делай что нравится" class="info__img">
         </section>
 
         <!-- ! STUDY -->
-        <section class="section__study container">
-            <div class="row">
-                <div class="study__right col-7">
+        <section class="section__study">
+            <div class="study__main-left col-7"></div>
+            <div class="study__main-right col-5">
+                <svg width="100" height="51" viewBox="0 0 101 51" class="study-top-rect" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50.3553" y="-50" width="71.2132" height="71.2132" transform="rotate(45 50.3553 -50)"
+                        fill="black" />
+                </svg>
+                <svg width="100" height="51" viewBox="0 0 101 51" class="study-bot-rect" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect x="50.3553" y="-50" width="71.2132" height="71.2132" transform="rotate(45 50.3553 -50)"
+                        fill="black" />
+                </svg>
+
+
+            </div>
+            <div class="container">
+                <div class="row">
                     <h2 class="section__header study__header">
                         Мы обучаем
                     </h2>
-                    <ul class="left__list">
-                        <li class="left__item">
-                            <p class="left__text">Интенсив “Деятельность ИП на подоходном налоге”</p>
-                        </li>
-                        <li class="left__item">
-                            <p class="left__text">Онлайн-курс “Фундаментальная бухгалтерия предприятия”</p>
-                        </li>
-                        <li class="left__item">
-                            <p class="left__text">Онлайн-курс “Азбука учета у ИП””</p>
-                        </li>
-                        <li class="left__item">
-                            <p class="left__text">Онлайн-курс “Бухгалтер в сети”</p>
-                        </li>
-                        <li class="left__item">
-                            <p class="left__text">Интенсив “Бухгалтерская кухня”</p>
-                        </li>
-                    </ul>
-                    <button class="study__button button">Нужна помощь в выборе курса</button>
+                    <div class="study__content col-12">
+                        <ul class="left__list col-12">
+                            <li class="left__item">
+                                <p class="left__text col-7">Интенсив “Деятельность ИП на подоходном налоге”</p>
+                                <button class="right__button button">Записаться</button>
+
+                            </li>
+                            <li class="left__item">
+                                <p class="left__text col-7">Онлайн-курс “Фундаментальная бухгалтерия предприятия”</p>
+                                <button class="right__button button">Записаться</button>
+
+                            </li>
+                            <li class="left__item">
+                                <p class="left__text col-7">Онлайн-курс “Азбука учета у ИП””</p>
+                                <button class="right__button button">Записаться</button>
+
+                            </li>
+                            <li class="left__item">
+                                <p class="left__text col-7">Онлайн-курс “Бухгалтер в сети”</p>
+                                <button class="right__button button">Записаться</button>
+
+                            </li>
+                            <li class="left__item">
+                                <p class="left__text col-7">Интенсив “Бухгалтерская кухня”</p>
+                                <button class="right__button button">Записаться</button>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="study__button-contanier col-xxl-3 col-xl-4 col-5">
+                        <button class="study__button button">Нужна помощь в выборе курса</button>
+                    </div>
                 </div>
-                <div class="study__left col-5">
-                    <ul class="right__list">
-                        <li class="right__item">
-                            <div class="right__marker"></div>
-                            <button class="right__button button">Записаться</button>
-                        </li>
-                        <li class="right__item">
-                            <div class="right__marker"></div>
-                            <button class="right__button button">Записаться</button>
-                        </li>
-                        <li class="right__item">
-                            <div class="right__marker"></div>
-                            <button class="right__button button">Записаться</button>
-                        </li>
-                        <li class="right__item">
-                            <div class="right__marker"></div>
-                            <button class="right__button button">Записаться</button>
-                        </li>
-                        <li class="right__item">
-                            <div class="right__marker"></div>
-                            <button class="right__button button">Записаться</button>
-                        </li>
-                    </ul>
-                </div>
+
+                <svg width="339" height="669" viewBox="0 0 339 669" class="vector-study-left" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M48 -0.5L338 43.5V8.5L2.5 55.5L37.5 28L9.5 201L31 295L9.5 444L31 505.5L192.5 555M192.5 555L172 505.5L148 581.5L192.5 555ZM192.5 555L100 691"
+                        stroke="#FFE9B2" stroke-opacity="0.3" />
+                </svg>
             </div>
         </section>
 
         <!-- ! REVIEWS -->
-        <section class="section__reviews container">
-            <div class="row">
-                <h2 class="section__header reviews__header">Отзывы</h2>
-            </div>
-            <div class="row">
-                <ul class="reviews__list">
-                    <li class="reviews__item col-4">
-                        <p class="reviews__text">“Проходил курс. Все понравилось”</p>
-                        <div class="reviews__bottom"></div>
-                    </li>
-                    <li class="reviews__item col-4">
-                        <p class="reviews__text">“Проходил курс. Все понравилось”</p>
-                        <div class="reviews__bottom"></div>
-                    </li>
-                    <li class="reviews__item col-4">
-                        <p class="reviews__text">“Замечательный курс! Буду проходить еще раз”</p>
-                        <div class="reviews__bottom"></div>
-                    </li>
-                </ul>
-            </div>
-            <div class="row col-6">
-                <button class="reviews__button button">Хочу так же</button>
+        <section class="section__reviews">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section__header reviews__header">Отзывы</h2>
+                </div>
+                <div class="row">
+                    <ul class="reviews__list">
+                        <li class="reviews__item col-4">
+                            <p class="reviews__text">“Проходил курс. Все понравилось”</p>
+                            <div class="reviews__bottom"><svg width="321" height="78" viewBox="0 0 321 78" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74286 30.4918L42.4286 3.03288L63 74.5067L5.85714 54.3164L110.543 3.03288L129.743 74.5067L5.85714 38.5679L181.4 3.03288L137.514 30.4918L141.629 5.05192L181.4 74.5067L94.5429 49.4707L215.229 35.3374L217.057 3.03288L200.143 74.5067L275.114 33.3184L243.114 3.03288L318.086 25.2423L287.457 74.5067L291.114 3.03288"
+                                        stroke="#FEEBA2" stroke-opacity="0.44" stroke-width="3" />
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="reviews__item col-4">
+                            <p class="reviews__text">“Проходил курс. Все понравилось”</p>
+                            <div class="reviews__bottom"><svg width="321" height="78" viewBox="0 0 321 78" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74286 30.4918L42.4286 3.03288L63 74.5067L5.85714 54.3164L110.543 3.03288L129.743 74.5067L5.85714 38.5679L181.4 3.03288L137.514 30.4918L141.629 5.05192L181.4 74.5067L94.5429 49.4707L215.229 35.3374L217.057 3.03288L200.143 74.5067L275.114 33.3184L243.114 3.03288L318.086 25.2423L287.457 74.5067L291.114 3.03288"
+                                        stroke="#FEEBA2" stroke-opacity="0.44" stroke-width="3" />
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="reviews__item col-4">
+                            <p class="reviews__text">“Замечательный курс! Буду проходить еще раз”</p>
+                            <div class="reviews__bottom"><svg width="321" height="78" viewBox="0 0 321 78" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.74286 30.4918L42.4286 3.03288L63 74.5067L5.85714 54.3164L110.543 3.03288L129.743 74.5067L5.85714 38.5679L181.4 3.03288L137.514 30.4918L141.629 5.05192L181.4 74.5067L94.5429 49.4707L215.229 35.3374L217.057 3.03288L200.143 74.5067L275.114 33.3184L243.114 3.03288L318.086 25.2423L287.457 74.5067L291.114 3.03288"
+                                        stroke="#FEEBA2" stroke-opacity="0.44" stroke-width="3" />
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row col-12 reviews__button-container">
+                    <button class="reviews__button button">Хочу так же</button>
+                </div>
+                <svg width="1234" height="876" viewBox="0 0 1234 876" fill="none" class="review-vector-topright"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.5 0L282 74.5L427.5 11.5L847.5 1.5L1197.5 132.5V11.5L1007 154L1232.5 361.5L1171 714.5L1232.5 779.5L1217.5 676.5L1101.5 918.5"
+                        stroke="#FFE9B2" stroke-opacity="0.3" />
+                </svg>
             </div>
         </section>
 
         <!-- ! PRINCIPLES -->
-        <section class="section__principles container">
-            <div class="row">
-                <h2 class="section__header principles__header">Принципы нашей онлайн-школы
-                </h2>
-            </div>
-            <ul class="row principles__list">
-                <li class="principles__item col-6">
-                    <div class="principles__marker"></div>
-                    <p class="principles__text">Обучаем не только бухгалтерии, но и как продавать свои услуги</p>
-                </li>
-                <li class="principles__item col-6">
-                    <div class="principles__marker"></div>
-                    <p class="principles__text">Доводим до результата: наши ученики находят клиентов уже во время
-                        обучения и окупают курсы за 1 месяц</p>
-                </li>
-                <li class="principles__item col-6">
-                    <div class="principles__marker"></div>
-                    <p class="principles__text">Не бросаем своих: после окончания курсов отвечаем на вопросы в
-                        закрытом чате выпускников, приглашаем на мероприятия школы, предоставляем скидки на
-                        последующее обучение</p>
-                </li>
-                <li class="principles__item col-6">
-                    <div class="principles__marker"></div>
-                    <p class="principles__text">Доносим сложную бухгалтерскую информацию простым языком на
-                        практических примерах</p>
-                </li>
-            </ul>
-            <div class="row">
-                <button class="principles__button col-6 button">Стать учеником школы</button>
+        <section class="section__principles">
+            <div class="container">
+
+                <div class="row">
+                    <h2 class="section__header principles__header">Принципы нашей онлайн-школы
+                    </h2>
+                </div>
+                <ul class="row principles__list">
+                    <li class="principles__item col-6">
+                        <div class="principles__marker principles__marker-1"></div>
+                        <p class="principles__text">Обучаем не только бухгалтерии, но и <span class="text-bold">как
+                                продавать свои услуги</span></p>
+                    </li>
+                    <li class="principles__item col-6">
+                        <div class="principles__marker principles__marker-2"></div>
+                        <p class="principles__text">Доводим до результата: наши ученики находят клиентов уже во время
+                            обучения и <span class="text-bold">окупают курсы за 1 месяц</span></p>
+                    </li>
+                    <li class="principles__item col-6">
+                        <div class="principles__marker principles__marker-3"></div>
+                        <p class="principles__text"><span class="text-bold">Не бросаем своих</span>: после окончания
+                            курсов
+                            отвечаем на вопросы в
+                            закрытом чате выпускников, приглашаем на мероприятия школы, предоставляем скидки на
+                            последующее обучение</p>
+                    </li>
+                    <li class="principles__item col-6">
+                        <div class="principles__marker principles__marker-4"></div>
+                        <p class="principles__text">Доносим сложную бухгалтерскую информацию <span
+                                class="text-bold">простым
+                                языком на
+                                практических примерах</span></p>
+                    </li>
+                </ul>
+                <div class="row principles__button-container">
+                    <button class="principles__button col-6 button">Стать учеником школы</button>
+                </div>
+                <svg width="926" height="1121" viewBox="0 0 926 1121" class="principles-vector" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M825.5 -1L912 124.5V16C890.167 47.3333 836 114 836 114C836 114 891.833 191 925 227.5L912 431.5H925L895.5 587.5L925 840.5L687.5 587.5L925 546.5L804 1052.5L498.5 1101.5H711.5L598 1042L1 1134.5"
+                        stroke="#FFE9B3" stroke-opacity="0.3" />
+                </svg>
+
             </div>
         </section>
 
         <!-- ! FOR -->
-        <section class="section__for container">
-            <div class="row">
-                <div class="for__half col-6">
-                    <div class="row">
-                        <h2 class="for__header section__header">Мария Шумская -
-                            основатель онлайн-школы</h2>
-                    </div>
-                    <div class="row">
-                        <p class="for__text">Обучение для тех, кто:</p>
-                        <ul class="for__list">
-                            <li class="for__item">
-                                Хочет разобраться в тонкостях бухгалтерии
-                            </li>
-                            <li class="for__item">
-                                Открывает бизнес с 0 и планирует вести бухгалтерию самостоятельно
-                            </li>
-                            <li class="for__item">
-                                Работает бухгалтером, но хочет повысить свой доход и продвинуться по карьерной лестнице
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <div class="for__citate">
-                            Сила в тебе. Действуй! |
+        <section class="section__for">
+            <div class="container">
+                <div class="row">
+                    <div class="for__half col-9 col-xl-7">
+                        <div class="row">
+                            <h2 class="for__header section__header">Мария Шумская -
+                                основатель онлайн-школы</h2>
+                        </div>
+                        <div class="row">
+                            <p class="for__text">Обучение для тех, кто:</p>
+                            <ul class="for__list col-10 col-xl-12">
+                                <li class="for__item">
+                                    <p class="for__item-text">
+                                        Хочет разобраться в тонкостях бухгалтерии
+                                    </p>
+                                </li>
+                                <li class="for__item">
+                                    <p class="for__item-text">
+                                        Открывает бизнес с 0 и планирует вести бухгалтерию самостоятельно
+                                    </p>
+                                </li>
+                                <li class="for__item">
+                                    <p class="for__item-text">
+                                        Работает бухгалтером, но хочет повысить свой доход и продвинуться по карьерной
+                                        лестнице
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row for__citate-container">
+                            <div class="for__citate col-7 col-xl-9">
+                                Сила в тебе. Действуй! |
+                            </div>
                         </div>
                     </div>
+                    <div class="for__img-container col-6">
+                        <img src="img/for-pic.png" alt="Мария Шумская" class="for__img">
+                    </div>
                 </div>
-                <div class="for__img col-6">
-                    <img src="#" alt="Мария Шумская" class="for__img">
+                <div class="row col-7 for__text-container">
+                    <p class="for__text">
+                        “Точность и актуальность информации на курсах под моей ответственностью!”
+                    </p>
                 </div>
-            </div>
-            <div class="row col-6">
-                <p class="for__text">
-                    “Точность и актуальность информации на курсах под моей ответственностью!”
-                </p>
-            </div>
-            <div class="row for__numbers">
-                <div class="for__content col-2_5">
-                    <h5 class="for__content-header">14 лет
-                    </h5>
-                    <p class="for__content-text">опыта работы в бухгалтерии</p>
+                <div class="row for__numbers">
+                    <div class="for__content col-2">
+                        <h5 class="for__content-header">14 <span class="for__content-header_sm">лет</span>
+                        </h5>
+                        <p class="for__content-text">опыта работы в бухгалтерии</p>
+                    </div>
+                    <div class="for__content col-2">
+                        <h5 class="for__content-header">4 <span class="for__content-header_sm">года</span>
+                        </h5>
+                        <p class="for__content-text">руководства бухгалтерской компанией</p>
+                    </div>
+                    <div class="for__content col-2">
+                        <h5 class="for__content-header">100 +
+                        </h5>
+                        <p class="for__content-text">консультаций в месяц</p>
+                    </div>
+                    <div class="for__content col-2">
+                        <h5 class="for__content-header">10 <span class="for__content-header_sm">бухгалтеров</span>
+                        </h5>
+                        <p class="for__content-text">в штате</p>
+                    </div>
+                    <div class="for__content col-2">
+                        <h5 class="for__content-header">300+ <span class="for__content-header_sm">клиентов</span>
+                        </h5>
+                        <p class="for__content-text">из различных ниш бизнеса</p>
+                    </div>
                 </div>
-                <div class="for__content col-2_5">
-                    <h5 class="for__content-header">4 года
-                    </h5>
-                    <p class="for__content-text">руководства бухгалтерской компанией</p>
+                <div class="row for__button-container">
+                    <button class="for__button button">хочу пройти обучение</button>
                 </div>
-                <div class="for__content col-2_5">
-                    <h5 class="for__content-header">100 +
-                    </h5>
-                    <p class="for__content-text">консультаций в месяц</p>
-                </div>
-                <div class="for__content col-2_5">
-                    <h5 class="for__content-header">10 бухгалтеров
-                    </h5>
-                    <p class="for__content-text">в штате</p>
-                </div>
-                <div class="for__content col-2_5">
-                    <h5 class="for__content-header">300+ клиентов
-                    </h5>
-                    <p class="for__content-text">из различных ниш бизнеса</p>
-                </div>
-            </div>
-            <div class="row">
-                <button class="for__button button">хочу пройти обучение</button>
+                <svg width="569" height="1450" viewBox="0 0 569 1450" fill="none" class="for-vector-left"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M517.5 -0.5L555 51.5L568 24.5L332 48.5L225 24.5L13.5 61L32.5 143L41 36.5L1.5 147.5L45 210V175L14.5 264.5L51 388.5L13 427L51 547.5L34.5 616.5L77 773.5L177.5 744H34.5V938L8.5 992L34.5 1018.5L44.5 992L-4 1039.5L44.5 1131.5L-4 1249L67.5 1323.5L104.5 1229.5L198.5 1457"
+                        stroke="#FFE9B2" stroke-opacity="0.3" />
+                </svg>
             </div>
         </section>
 
         <!-- ! VIDEO -->
-        <section class="section__video container">
-            <div class="video__container">
-                <div class="arrow-up"></div>
-                <div class="dots-up"></div>
-                <!-- !FIXME: video -->
-                <!-- !FIXME: it's shadow -->
-                <div class="dots-down"></div>
-                <div class="arrow-down"></div>
+        <section class="section__video">
+            <div class="container">
+
+                <div class="video__container-big">
+                    <div class="arrow-up"></div>
+                    <div class="dots-up"></div>
+                    <div class="video__container-small col-8"></div>
+                    <!-- !FIXME: video -->
+                    <!-- !FIXME: it's shadow -->
+                    <div class="dots-down"></div>
+                    <div class="arrow-down"></div>
+
+                </div>
             </div>
+            <svg width="188" height="771" viewBox="0 0 188 771" class="vector-video" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M187 0L7 84L80 240L1.5 703L140.5 822" stroke="#FFE9B2" stroke-opacity="0.3" />
+            </svg>
+
         </section>
-        <section class="section__family container">
-            <div class="row col-8">
-                <h2 class="section__header family__header">Выпускники курсов получают доступ в закрытый чат Бухфемили!
-                </h2>
-                <p class="family__this">Бухфемили - это:</p>
-            </div>
-            <div class="row">
-                <div class="family__content col-4">
-                    <p class="family__text">Возможность задать вопрос опытным коллегам и экспертам школы</p>
-                    <div class="family__icon"></div>
+
+        <!-- ! FAMILY -->
+        <section class="section__family">
+            <div class="container">
+
+                <div class="row col-9 family__header-container">
+                    <h2 class="section__header family__header">Выпускники курсов получают доступ в закрытый чат
+                        Бухфемили!
+                    </h2>
+                    <p class="family__this">Бухфемили - это:</p>
                 </div>
-                <div class="family__content col-4">
-                    <p class="family__text">Чат, где предприниматели-клиенты ищут выпускников школы Марии Шумской для
-                        сотрудничества</p>
-                    <div class="family__icon"></div>
+                <div class="row family__content-container">
+                    <div class="family__content col-4">
+                        <p class="family__text">Возможность задать вопрос опытным коллегам и экспертам школы</p>
+                        <div class="family__icon family__icon-question"></div>
+                    </div>
+                    <div class="family__content col-4">
+                        <p class="family__text">Чат, где предприниматели-клиенты ищут выпускников школы Марии Шумской
+                            для
+                            сотрудничества</p>
+                        <div class="family__icon family__icon-message"></div>
+                    </div>
+                    <div class="family__content col-4">
+                        <p class="family__text">Специальные предложения и скидки на обучающие программы школы</p>
+                        <div class="family__icon family__icon-percent"></div>
+                    </div>
                 </div>
-                <div class="family__content col-4">
-                    <p class="family__text">Специальные предложения и скидки на обучающие программы школы</p>
-                    <div class="family__icon"></div>
+                <div class="row family__button-container">
+                    <button class="family__button button">Стать членом Бухфэмили</button>
                 </div>
+                <div class="row col-12 family__question-container">
+                    <p class="family__question col-4 col-xl-3">
+                        Возникли вопросы? Ответим!
+                    </p>
+                </div>
+                <ul class="row family__list">
+                    <li class="family__item">
+                        <a href="#">
+                            <svg width="49" height="41" viewBox="0 0 49 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.4875 38.5102L19.2458 27.0539L40.0458 8.31227C40.9667 7.47269 39.8562 7.06644 38.6375 7.79769L12.9625 24.0206L1.85833 20.4998C-0.525005 19.8227 -0.552089 18.1706 2.39999 16.9789L45.6521 0.295603C47.6292 -0.598147 49.525 0.783104 48.7667 3.81644L41.4 38.5102C40.8854 40.9748 39.3958 41.5706 37.3375 40.4331L26.125 32.1456L20.7354 37.3727C20.1125 37.9956 19.5979 38.5102 18.4875 38.5102Z"
+                                    fill="#FFF7E3" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="family__item">
+                        <a href="#">
+                            <svg class="" width="55" height="55" viewBox="0 0 55 55" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.125 0.416992H38.875C47.5417 0.416992 54.5834 7.45866 54.5834 16.1253V38.8753C54.5834 43.0414 52.9284 47.0369 49.9825 49.9828C47.0366 52.9287 43.0411 54.5837 38.875 54.5837H16.125C7.45835 54.5837 0.416687 47.542 0.416687 38.8753V16.1253C0.416687 11.9592 2.07167 7.96374 5.01755 5.01786C7.96344 2.07197 11.9589 0.416992 16.125 0.416992ZM15.5834 5.83366C12.9975 5.83366 10.5175 6.86089 8.68906 8.68937C6.86058 10.5178 5.83335 12.9978 5.83335 15.5837V39.417C5.83335 44.8066 10.1938 49.167 15.5834 49.167H39.4167C42.0025 49.167 44.4825 48.1398 46.311 46.3113C48.1395 44.4828 49.1667 42.0029 49.1667 39.417V15.5837C49.1667 10.1941 44.8063 5.83366 39.4167 5.83366H15.5834ZM41.7188 9.89616C42.6166 9.89616 43.4777 10.2528 44.1126 10.8877C44.7475 11.5226 45.1042 12.3837 45.1042 13.2816C45.1042 14.1794 44.7475 15.0405 44.1126 15.6754C43.4777 16.3103 42.6166 16.667 41.7188 16.667C40.8209 16.667 39.9598 16.3103 39.3249 15.6754C38.69 15.0405 38.3334 14.1794 38.3334 13.2816C38.3334 12.3837 38.69 11.5226 39.3249 10.8877C39.9598 10.2528 40.8209 9.89616 41.7188 9.89616ZM27.5 13.9587C31.0915 13.9587 34.5359 15.3854 37.0754 17.9249C39.615 20.4645 41.0417 23.9089 41.0417 27.5003C41.0417 31.0918 39.615 34.5362 37.0754 37.0757C34.5359 39.6153 31.0915 41.042 27.5 41.042C23.9085 41.042 20.4642 39.6153 17.9246 37.0757C15.3851 34.5362 13.9584 31.0918 13.9584 27.5003C13.9584 23.9089 15.3851 20.4645 17.9246 17.9249C20.4642 15.3854 23.9085 13.9587 27.5 13.9587ZM27.5 19.3753C25.3451 19.3753 23.2785 20.2313 21.7548 21.7551C20.231 23.2788 19.375 25.3454 19.375 27.5003C19.375 29.6552 20.231 31.7218 21.7548 33.2456C23.2785 34.7693 25.3451 35.6253 27.5 35.6253C29.6549 35.6253 31.7215 34.7693 33.2453 33.2456C34.769 31.7218 35.625 29.6552 35.625 27.5003C35.625 25.3454 34.769 23.2788 33.2453 21.7551C31.7215 20.2313 29.6549 19.3753 27.5 19.3753Z"
+                                    fill="#FFF7e3" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="family__item">
+                        <a href="#">
+                            <svg width="53" height="55" viewBox="0 0 53 55" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M52.3474 46.4881C51.7063 48.1398 49.2133 51.2361 47.4713 52.5587C45.8935 53.7532 44.778 54.2113 43.3042 54.2809C42.0916 54.3402 41.5889 54.2371 40.0386 53.5968C27.8767 48.5893 18.1666 41.117 10.4555 30.8492C6.4293 25.4875 3.36305 19.9265 1.26789 14.1575C0.0458589 10.7922 -0.0142971 9.33129 0.989453 7.60911C1.42344 6.88379 3.26938 5.08512 4.60914 4.08223C6.84609 2.42106 7.87563 1.80661 8.69891 1.63473C9.2618 1.5127 10.2415 1.60723 10.8654 1.83239C11.1688 1.93637 11.6354 2.17958 11.9044 2.35145C13.5509 3.442 18.1323 9.29778 19.6302 12.2197C20.487 13.8894 20.774 15.1261 20.5059 16.043C20.23 17.0287 19.7702 17.5469 17.7172 19.1995C16.8939 19.8647 16.123 20.5487 16.0019 20.73C15.6891 21.1795 15.4373 22.0612 15.4373 22.6843C15.4484 24.1297 16.3843 26.7491 17.6132 28.7652C18.5654 30.3301 20.273 32.3368 21.9625 33.8776C23.9459 35.6926 25.6956 36.9293 27.6705 37.9072C30.2091 39.1697 31.7594 39.4893 32.8937 38.9617C33.1799 38.8328 33.4833 38.6592 33.5787 38.5818C33.6663 38.5036 34.3323 37.6907 35.0611 36.7909C36.4645 35.0266 36.7833 34.7413 37.7449 34.4122C38.9661 33.9979 40.2122 34.1097 41.4695 34.7499C42.4234 35.2432 44.5022 36.5314 45.8445 37.4655C47.6105 38.7022 51.3901 41.7813 51.8997 42.3949C52.7995 43.5035 52.9524 44.9232 52.3474 46.4881Z"
+                                    fill="#FFF7E3" />
+                                <path
+                                    d="M51.898 42.3958C51.3884 41.7822 47.6088 38.7039 45.8428 37.4664C44.5005 36.5323 42.4225 35.2441 41.4677 34.7508C40.2105 34.1106 38.9644 33.9989 37.7432 34.4131C36.7816 34.7422 36.4627 35.0275 35.0594 36.7918C34.3306 37.6916 33.6646 38.5046 33.5769 38.5828C33.4816 38.6601 33.1782 38.8337 32.892 38.9626C31.7576 39.4903 30.2073 39.1706 27.6687 37.9082C25.6939 36.9302 23.9442 35.6936 21.9608 33.8786C20.2712 32.3377 18.5645 30.3311 17.6115 28.7661C16.3817 26.75 15.4458 24.1298 15.4355 22.6852C15.4355 22.0621 15.6873 21.1813 16.0001 20.731C16.0491 20.6571 16.2055 20.4998 16.429 20.2979C13.3713 22.1318 9.70006 23.2025 5.74952 23.2025C5.64811 23.2025 5.54756 23.1957 5.4453 23.1939C6.90795 25.7901 8.57256 28.3425 10.4546 30.8501C18.1658 41.1179 27.875 48.5902 40.0377 53.5978C41.588 54.238 42.0908 54.342 43.3034 54.2818C44.7772 54.2114 45.8926 53.7533 47.4705 52.5597C49.2116 51.2371 51.7055 48.1407 52.3466 46.489C52.9524 44.9232 52.7994 43.5036 51.898 42.3958Z"
+                                    fill="#FFF7E3" />
+                                <path
+                                    d="M26.1537 1.09652C26.5619 0.72527 26.8472 0.672848 28.2591 0.717536C28.9939 0.743317 30.0776 0.829255 30.668 0.898005C33.6466 1.27011 36.0545 1.98769 38.6963 3.27675C41.2959 4.54777 42.9588 5.75004 45.1596 7.93886C47.2213 10.0048 48.3634 11.5723 49.5768 14.0026C51.2663 17.392 52.2288 21.4225 52.3921 25.8603C52.4514 27.3736 52.4102 27.7114 52.063 28.1436C51.4038 28.9824 49.9601 28.8432 49.4659 27.9013C49.3087 27.5902 49.2657 27.3221 49.2141 26.1103C49.1256 24.2515 48.9967 23.0493 48.7381 21.6132C47.7163 15.9826 45.0127 11.4846 40.6995 8.25855C37.1038 5.56011 33.3879 4.24527 28.5204 3.95996C26.8747 3.86543 26.5868 3.80441 26.2156 3.5191C25.5212 2.9734 25.4868 1.69379 26.1537 1.09652Z"
+                                    fill="#FFF7E3" />
+                                <path
+                                    d="M36.4782 12.2377C34.7371 11.1996 32.1633 10.4287 29.8172 10.2388C28.9681 10.17 28.5006 9.99645 28.1801 9.62434C27.6877 9.06231 27.6344 8.3009 28.052 7.67012C28.5006 6.96973 29.1933 6.85629 31.2644 7.16825C36.5212 7.93825 40.5938 10.3772 43.2621 14.3389C44.7609 16.5698 45.695 19.1909 46.0173 22.0019C46.129 23.0315 46.129 24.9083 46.0078 25.2194C45.8935 25.5133 45.53 25.9121 45.2181 26.0762C44.8812 26.249 44.1619 26.2326 43.7649 26.0238C43.098 25.6869 42.8986 25.1507 42.8986 23.6975C42.8986 21.4571 42.3177 19.0955 41.3131 17.2625C40.1684 15.169 38.5081 13.44 36.4782 12.2377Z"
+                                    fill="#FFF7E3" />
+                                <path
+                                    d="M39.4078 23.7663C38.8956 24.2338 37.9529 24.251 37.3797 23.8093C36.9663 23.4982 36.834 23.169 36.7394 22.2787C36.6251 21.0936 36.4189 20.2635 36.0631 19.4943C35.3 17.8589 33.9594 17.0116 31.6906 16.734C30.6241 16.6051 30.3044 16.4839 29.9564 16.0775C29.3248 15.3247 29.568 14.1052 30.4419 13.6557C30.7711 13.4925 30.9094 13.4736 31.6365 13.5174C32.0876 13.5432 32.7545 13.6214 33.1103 13.6987C34.817 14.0622 36.1233 14.7102 37.2413 15.7578C38.6799 17.1164 39.4688 18.7596 39.8143 21.1203C40.0472 22.6594 39.9509 23.2653 39.4078 23.7663Z"
+                                    fill="#FFF7E3" />
+                                <path
+                                    d="M51.898 42.3952C51.3883 41.7816 47.6088 38.7033 45.8428 37.4658C44.5005 36.5317 42.4225 35.2435 41.4677 34.7502C40.2105 34.11 38.9644 33.9983 37.7432 34.4125C36.7816 34.7416 36.4627 35.0269 35.0594 36.7912C34.3306 37.691 33.6646 38.504 33.5769 38.5822C33.4867 38.6561 33.2057 38.8151 32.9316 38.9422C30.7814 41.5324 28.2488 43.7719 25.4146 45.556C29.8438 48.7288 34.7053 51.3997 40.0394 53.5954C41.5898 54.2357 42.0925 54.3397 43.3051 54.2795C44.7789 54.209 45.8944 53.751 47.4722 52.5573C49.2133 51.2347 51.7072 48.1384 52.3483 46.4867C52.9524 44.9226 52.7994 43.503 51.898 42.3952Z"
+                                    fill="#FFF7E3" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <button class="family__button button">Стать членом Бухфэмили</button>
-            </div>
-            <div class="row">
-                <p class="family__question col-2">
-                    Возникли вопросы? Ответим!
-                </p>
-            </div>
-            <ul class="row family__list">
-                <li class="family__item"></li>
-                <li class="family__item"></li>
-                <li class="family__item"></li>
-            </ul>
+            <svg width="1277" height="991" viewBox="0 0 1277 991" class="vector-family" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M1 0L138.5 53L168 0L392 53L446 17L916.5 53L971 198C998.167 168.667 1049.8 109.5 1039 107.5C1028.2 105.5 891.167 141.333 824 159.5L1245 198V426.5L1297 496.5L1177 641.5L1324 718.5L1039 942.5L844.5 741L1324 990"
+                    stroke="#FFE9B2" stroke-opacity="0.3" />
+            </svg>
         </section>
 
         <!-- ! HOW -->
@@ -476,19 +666,20 @@
                 <div class="row">
                     <ul class="how__list">
                         <li class="how__item">
-                            <div class="how__marker"></div>
-                            <p class="how__text">Оплатить на сайте или написать менеджеру в Telegram: @zabotlivy_manager
+                            <div class="how__marker">1</div>
+                            <p class="how__text">Оплатить на сайте или написать менеджеру в Telegram: <span
+                                    class="text-bold">@zabotlivy_manager</span>
                             </p>
                         </li>
                         <li class="how__item">
-                            <div class="how__marker"></div>
+                            <div class="how__marker">2</div>
                             <p class="how__text">После оплаты: на странице благодарности вам откроется ссылка на
                                 закрытый
                                 канал Telegram. Также письмо с доступом придет вам на e-mail, который вы указывали при
                                 оплате</p>
                         </li>
                         <li class="how__item">
-                            <div class="how__marker"></div>
+                            <div class="how__marker">3</div>
                             <p class="how__text">Вступайте в канал для того, чтобы не пропустить старт обучения!</p>
                         </li>
                     </ul>
@@ -500,30 +691,78 @@
     <!-- ! FOOTER -->
     <footer class="footer container">
         <div class="row footer__upper">
-            <div class="footer__icon"></div>
-            <div class="footer__sign">
+            <div class="footer__icon col-xl-3 col-2"><svg width="60" height="44" viewBox="0 0 60 44" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M45.5002 0L40.5118 2.76177V22.9918C40.9022 22.9579 41.2586 22.9228 41.5951 22.8896L41.5955 22.8895L41.5958 22.8895L41.5959 22.8895C42.9121 22.7596 43.9263 22.6596 45.5002 22.7846V0ZM0 42.7902V0.0863054L5.24737 2.79629L5.19558 34.6948L10.3566 31.9848V5.64437L22.6983 12.5143L35.1781 5.64437V23.9239L30.1033 26.1333V13.2738L25.322 15.8111V28.7742L20.3508 31.5533V15.8111L15.7076 13.2738V34.1424L0 42.7902ZM45.6038 31.4669L45.6383 43.0837L33.7799 36.3518L39.3035 34.0043L40.5118 34.7466V32.9169L45.6038 31.4669ZM14.1547 42.8074C14.1547 42.8074 13.8312 42.7209 13.6194 42.7211C13.3219 42.7215 12.8772 42.8937 12.8772 42.8937C15.6554 40.6653 17.3038 39.5015 20.3513 37.5255C21.0176 33.8256 22.3112 32.1886 25.6849 29.7753C24.9369 30.9318 24.3601 32.2331 24.2523 33.425C26.6021 29.9132 28.3074 27.5396 32.0198 26.979L30.3282 30.6556C30.679 30.1592 30.9836 29.7027 31.2766 29.2636C31.9144 28.3076 32.4974 27.4339 33.3834 26.4094C35.1708 25.5399 36.1933 25.1862 38.0439 24.7869C36.34 26.4792 35.5262 27.4512 34.9369 29.3265C36.8684 26.357 37.9741 24.7339 41.1509 24.0274C44.863 23.6573 46.9651 23.6122 50.7308 23.6649C47.9479 24.5201 46.5017 25.1802 45.5697 26.1332C51.0758 23.8759 54.2409 23.6359 60 24.7006L40.3569 31.5532C37.9612 32.1751 36.6296 32.317 34.2637 32.4163C35.1187 32.8317 35.8328 32.966 38.8206 32.4853C33.8755 35.2825 31.4857 35.6436 28.3604 35.6614C28.979 36.0553 29.8034 36.2424 30.7597 36.3345C27.3258 37.1227 25.4843 37.4299 22.4053 37.6464C23.3954 37.0051 24.3043 36.4381 25.1844 35.9183C26.7588 34.9883 28.241 34.2092 29.9312 33.425C31.3829 32.7514 32.9881 32.0741 34.9369 31.2943C35.517 31.0913 36.0612 30.8994 36.5806 30.7162C39.9644 29.5226 42.2958 28.7003 46.6399 27.6177L52.6122 26.2195C50.1829 26.472 48.839 26.6738 46.4673 27.1344C44.0463 27.6562 42.1113 28.1556 40.3569 28.6926C37.7811 29.4809 35.5946 30.35 32.831 31.4894C32.4569 31.6437 32.0722 31.8029 31.6745 31.9675C30.2502 32.6614 28.9537 33.3014 27.739 33.9233C25.9599 34.8341 24.3566 35.706 22.7851 36.6512C22.7026 36.7008 22.6203 36.7506 22.5379 36.8006C22.3669 36.9045 22.1962 37.0094 22.0256 37.1153C19.5668 38.6421 17.1292 40.3944 14.1547 42.8074Z"
+                        fill="white" />
+                </svg>
+            </div>
+            <div class="footer__sign col-2_5">
                 <a href="#" class="sign__link">Записаться на курс</a>
                 <a href="#" class="sign__link">Отзывы о школе</a>
                 <a href="#" class="sign__link">Вакансии школы</a>
             </div>
-            <div class="footer__policy">
+            <div class="footer__policy col-2_5">
                 <a href="#" class="policy__link">Договор оферты</a>
                 <a href="#" class="policy__link">Политика конфиденциальности</a>
             </div>
-            <div class="footer__numbers">
+            <div class="footer__numbers col-3 col-xl-2">
                 <a href="#" class="numbers__link">life: +375 25 635 08 00</a>
                 <a href="#" class="numbers__link">А1: +375 29 635 08 00</a>
                 <a href="#" class="numbers__link">МТС: +375 33 635 08 00</a>
                 <a href="#" class="numbers__link">VIBER: +375 25 635 08 00</a>
             </div>
-            <button class="footer__button"></button>
+            <div class="footer__button-container col-2">
+                <button class="footer__button"></button>
+            </div>
         </div>
+        <hr class="footer-line">
         <div class="row footer__under">
-            <p href="#" class="under__text">© 2022 ИП Шумская Мария Анатольевна</p>
-            <ul class="footer__icons">
-                <li class="footer__icon"></li>
-                <li class="footer__icon"></li>
-                <li class="footer__icon"></li>
+            <p href="#" class="under__text col-6">© 2022 ИП Шумская Мария Анатольевна</p>
+            <ul class="footer__icons col-6">
+                <li class="footer__icon">
+                    <a href="#">
+                        <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.04002 19.8663L9.41335 14.2263L19.6533 4.99963C20.1067 4.5863 19.56 4.3863 18.96 4.7463L6.32002 12.733L0.853351 10.9996C-0.319982 10.6663 -0.333316 9.85296 1.12002 9.2663L22.4133 1.05296C23.3867 0.612965 24.32 1.29296 23.9467 2.7863L20.32 19.8663C20.0667 21.0796 19.3333 21.373 18.32 20.813L12.8 16.733L10.1467 19.3063C9.84002 19.613 9.58668 19.8663 9.04002 19.8663Z"
+                                fill="white" fill-opacity="0.56" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__icon">
+                    <a href="#">
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.06149 0.666992H19.2615C23.5282 0.666992 26.9948 4.13366 26.9948 8.40033V19.6003C26.9948 21.6513 26.1801 23.6183 24.7298 25.0686C23.2795 26.5189 21.3125 27.3337 19.2615 27.3337H8.06149C3.79482 27.3337 0.328156 23.867 0.328156 19.6003V8.40033C0.328156 6.34932 1.14292 4.38231 2.5932 2.93203C4.04348 1.48175 6.01048 0.666992 8.06149 0.666992ZM7.79482 3.33366C6.52178 3.33366 5.30088 3.83937 4.40071 4.73955C3.50054 5.63972 2.99482 6.86062 2.99482 8.13366V19.867C2.99482 22.5203 5.14149 24.667 7.79482 24.667H19.5282C20.8012 24.667 22.0221 24.1613 22.9223 23.2611C23.8224 22.3609 24.3282 21.14 24.3282 19.867V8.13366C24.3282 5.48033 22.1815 3.33366 19.5282 3.33366H7.79482ZM20.6615 5.33366C21.1035 5.33366 21.5274 5.50925 21.84 5.82182C22.1526 6.13438 22.3282 6.5583 22.3282 7.00033C22.3282 7.44235 22.1526 7.86628 21.84 8.17884C21.5274 8.4914 21.1035 8.66699 20.6615 8.66699C20.2195 8.66699 19.7955 8.4914 19.483 8.17884C19.1704 7.86628 18.9948 7.44235 18.9948 7.00033C18.9948 6.5583 19.1704 6.13438 19.483 5.82182C19.7955 5.50925 20.2195 5.33366 20.6615 5.33366ZM13.6615 7.33366C15.4296 7.33366 17.1253 8.03604 18.3755 9.28628C19.6258 10.5365 20.3282 12.2322 20.3282 14.0003C20.3282 15.7684 19.6258 17.4641 18.3755 18.7144C17.1253 19.9646 15.4296 20.667 13.6615 20.667C11.8934 20.667 10.1977 19.9646 8.94744 18.7144C7.6972 17.4641 6.99482 15.7684 6.99482 14.0003C6.99482 12.2322 7.6972 10.5365 8.94744 9.28628C10.1977 8.03604 11.8934 7.33366 13.6615 7.33366ZM13.6615 10.0003C12.6006 10.0003 11.5832 10.4218 10.8331 11.1719C10.0829 11.922 9.66149 12.9395 9.66149 14.0003C9.66149 15.0612 10.0829 16.0786 10.8331 16.8288C11.5832 17.5789 12.6006 18.0003 13.6615 18.0003C14.7224 18.0003 15.7398 17.5789 16.4899 16.8288C17.2401 16.0786 17.6615 15.0612 17.6615 14.0003C17.6615 12.9395 17.2401 11.922 16.4899 11.1719C15.7398 10.4218 14.7224 10.0003 13.6615 10.0003Z"
+                                fill="white" fill-opacity="0.56" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__icon">
+                    <a href="#">
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.5865 23.3464C26.2708 24.1595 25.0435 25.6839 24.1859 26.335C23.4091 26.9231 22.86 27.1486 22.1344 27.1828C21.5374 27.212 21.2899 27.1613 20.5267 26.8461C14.5393 24.3808 9.75898 20.7021 5.96271 15.6472C3.9806 13.0076 2.47106 10.2699 1.4396 7.42979C0.83798 5.77302 0.808365 5.05379 1.30252 4.20594C1.51617 3.84886 2.42494 2.96336 3.08452 2.46963C4.18579 1.65182 4.69264 1.34932 5.09794 1.26471C5.37506 1.20463 5.85737 1.25117 6.16452 1.36201C6.31387 1.41321 6.5436 1.53294 6.67602 1.61755C7.48664 2.15444 9.74206 5.03729 10.4795 6.47575C10.9013 7.29779 11.0426 7.90659 10.9106 8.35802C10.7748 8.84329 10.5484 9.0984 9.53771 9.91198C9.13241 10.2394 8.75291 10.5762 8.69325 10.6655C8.53925 10.8867 8.41529 11.3208 8.41529 11.6276C8.42079 12.3392 8.88152 13.6287 9.48652 14.6213C9.95529 15.3917 10.7959 16.3796 11.6277 17.1381C12.6042 18.0317 13.4656 18.6405 14.4378 19.1219C15.6876 19.7434 16.4508 19.9008 17.0093 19.6411C17.1501 19.5776 17.2995 19.4921 17.3464 19.4541C17.3896 19.4156 17.7175 19.0153 18.0763 18.5724C18.7671 17.7038 18.9241 17.5633 19.3975 17.4013C19.9987 17.1974 20.6122 17.2524 21.2311 17.5676C21.7008 17.8104 22.7242 18.4446 23.385 18.9045C24.2544 19.5133 26.1151 21.0292 26.366 21.3313C26.809 21.877 26.8843 22.5759 26.5865 23.3464Z"
+                                fill="white" fill-opacity="0.56" />
+                            <path
+                                d="M26.3652 21.3321C26.1143 21.0301 24.2537 19.5146 23.3842 18.9054C22.7234 18.4455 21.7004 17.8113 21.2303 17.5684C20.6114 17.2532 19.9979 17.1982 19.3967 17.4022C18.9233 17.5642 18.7663 17.7047 18.0755 18.5732C17.7167 19.0162 17.3888 19.4164 17.3456 19.4549C17.2987 19.493 17.1493 19.5785 17.0085 19.6419C16.45 19.9017 15.6868 19.7443 14.437 19.1228C13.4648 18.6414 12.6034 18.0326 11.6269 17.139C10.7951 16.3804 9.95491 15.3925 9.48572 14.6221C8.8803 13.6296 8.41957 12.3396 8.41449 11.6284C8.41449 11.3217 8.53845 10.888 8.69245 10.6664C8.71657 10.63 8.79357 10.5525 8.90357 10.4531C7.39826 11.356 5.59087 11.8831 3.64599 11.8831C3.59606 11.8831 3.54656 11.8797 3.49622 11.8789C4.21629 13.157 5.03579 14.4135 5.96233 15.6481C9.75861 20.703 14.5385 24.3817 20.5263 26.8469C21.2896 27.1621 21.5371 27.2133 22.134 27.1837C22.8596 27.149 23.4088 26.9235 24.1855 26.3359C25.0427 25.6847 26.2705 24.1604 26.5861 23.3472C26.8843 22.5764 26.809 21.8775 26.3652 21.3321Z"
+                                fill="white" fill-opacity="0.56" />
+                            <path
+                                d="M13.691 0.999831C13.892 0.817062 14.0325 0.791254 14.7276 0.813254C15.0893 0.825947 15.6228 0.868255 15.9135 0.902101C17.3799 1.08529 18.5653 1.43856 19.8659 2.07318C21.1457 2.69891 21.9643 3.29079 23.0478 4.36837C24.0628 5.38545 24.6251 6.15714 25.2224 7.3536C26.0542 9.02222 26.5281 11.0065 26.6084 13.1912C26.6376 13.9363 26.6173 14.1025 26.4464 14.3153C26.1219 14.7283 25.4111 14.6597 25.1679 14.196C25.0904 14.0429 25.0693 13.9109 25.0439 13.3143C25.0003 12.3992 24.9369 11.8073 24.8095 11.1004C24.3065 8.32837 22.9755 6.11399 20.852 4.52576C19.0819 3.19729 17.2525 2.54999 14.8562 2.40952C14.046 2.36299 13.9043 2.33295 13.7215 2.19249C13.3797 1.92383 13.3627 1.29387 13.691 0.999831Z"
+                                fill="white" fill-opacity="0.56" />
+                            <path
+                                d="M18.7739 6.48484C17.9167 5.97376 16.6496 5.59426 15.4946 5.50076C15.0766 5.46692 14.8464 5.38146 14.6886 5.19826C14.4462 4.92157 14.42 4.54673 14.6256 4.23619C14.8464 3.89138 15.1874 3.83553 16.207 3.98911C18.795 4.36819 20.8 5.56888 22.1136 7.51926C22.8515 8.61757 23.3114 9.90796 23.47 11.2918C23.525 11.7987 23.525 12.7227 23.4654 12.8758C23.4091 13.0205 23.2301 13.2168 23.0766 13.2977C22.9107 13.3827 22.5566 13.3747 22.3611 13.2718C22.0328 13.106 21.9347 12.842 21.9347 12.1266C21.9347 11.0236 21.6487 9.861 21.1541 8.95857C20.5906 7.92796 19.7732 7.07673 18.7739 6.48484Z"
+                                fill="white" fill-opacity="0.56" />
+                            <path
+                                d="M20.2162 12.1601C19.964 12.3903 19.4999 12.3987 19.2177 12.1813C19.0142 12.0281 18.9491 11.8661 18.9025 11.4278C18.8463 10.8443 18.7447 10.4356 18.5696 10.057C18.1939 9.25188 17.5339 8.83472 16.417 8.69807C15.8919 8.63461 15.7345 8.57495 15.5632 8.37484C15.2522 8.00422 15.372 7.40388 15.8022 7.18261C15.9643 7.10222 16.0324 7.09292 16.3903 7.11449C16.6124 7.12719 16.9407 7.16569 17.1159 7.20376C17.9561 7.38272 18.5992 7.70172 19.1496 8.21745C19.8578 8.88634 20.2462 9.69526 20.4163 10.8575C20.531 11.6152 20.4836 11.9135 20.2162 12.1601Z"
+                                fill="white" fill-opacity="0.56" />
+                            <path
+                                d="M26.3652 21.3316C26.1143 21.0295 24.2536 19.5141 23.3842 18.9048C22.7233 18.4449 21.7003 17.8107 21.2303 17.5679C20.6113 17.2527 19.9979 17.1977 19.3967 17.4016C18.9232 17.5637 18.7663 17.7041 18.0754 18.5727C17.7166 19.0157 17.3887 19.4159 17.3456 19.4544C17.3012 19.4908 17.1628 19.569 17.0279 19.6317C15.9693 20.9068 14.7225 22.0094 13.3272 22.8877C15.5077 24.4497 17.9011 25.7646 20.5271 26.8455C21.2904 27.1607 21.5379 27.2119 22.1348 27.1823C22.8604 27.1476 23.4096 26.9221 24.1863 26.3345C25.0435 25.6834 26.2713 24.159 26.5869 23.3459C26.8843 22.5759 26.809 21.8769 26.3652 21.3316Z"
+                                fill="white" fill-opacity="0.56" />
+                        </svg>
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
